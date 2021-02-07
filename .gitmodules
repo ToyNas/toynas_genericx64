@@ -1,3 +1,11 @@
 [submodule "toynas-yocto-scripts"]
 	path = toynas-yocto-scripts
 	url = https://github.com/ToyNas/toynas-yocto-scripts.git
+[submodule "layers/meta-openembedded"]
+	path = layers/meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded.git
+	branch = dunfell
+[submodule "layers/poky"]
+	path = layers/poky
+	url = git://git.yoctoproject.org/poky
+	branch = dunfell
