@@ -1,0 +1,3 @@
+[submodule "toynas-yocto-scripts"]
+	path = toynas-yocto-scripts
+	url = https://github.com/ToyNas/toynas-yocto-scripts.git
