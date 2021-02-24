@@ -41,7 +41,7 @@ module.exports =
 
 	yocto:
 		machine: 'genericx86-64'
-		image: 'core-image-base'
+		image: 'resin-image'
 		fstype: 'resinos-img'
 		version: 'yocto-dunfell'
 		deployArtifact: 'resin-image-flasher-genericx86-64.resinos-img'

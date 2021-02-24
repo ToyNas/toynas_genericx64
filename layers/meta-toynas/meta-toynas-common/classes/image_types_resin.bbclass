@@ -114,7 +114,6 @@ RESIN_STATE_FS ?= "${WORKDIR}/${RESIN_STATE_FS_LABEL}.img"
 IMAGE_TYPEDEP_resinos-img = "${RESIN_ROOT_FSTYPE}"
 do_image_resinos_img[depends] = " \
     coreutils-native:do_populate_sysroot \
-    docker-disk:do_deploy \
     dosfstools-native:do_populate_sysroot \
     e2fsprogs-native:do_populate_sysroot \
     mtools-native:do_populate_sysroot \

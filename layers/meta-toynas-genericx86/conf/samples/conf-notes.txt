@@ -8,7 +8,7 @@
  -------------------------------------------- 
 
 Resin specific images available:
-	core-image-base
+	resin-image
 
-Intel NUC                                : $ MACHINE=genericx86-64 bitbake core-image-base
+Intel NUC                                : $ MACHINE=genericx86-64 bitbake resin-image
 
